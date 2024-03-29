@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <footer className=" text-white py-8">
             <div className="container mx-auto flex flex-col items-center space-y-4">
-                <h1 className="text-[2vw] font-beckman font-bold">
+                <h1 className="text-[2rem] font-beckman font-bold">
                     Connect with Me
                 </h1>
                 <div className="flex justify-center space-x-7">
