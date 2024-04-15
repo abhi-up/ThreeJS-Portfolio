@@ -122,6 +122,7 @@ const ProjectCard = ({
 
 const Projects = () => {
     const [active, setActive] = useState("project-2")
+    const [active2, setActive2] = useState("project-2")
 
     return (
         <div className="-mt-[6rem]">
@@ -153,7 +154,13 @@ const Projects = () => {
                 viewport={{ once: false, amount: 0.25 }}
                 className={`${styles.innerWidth} mx-auto flex flex-col`}
             >
-                <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+                <p
+                    className={`mt-40 text-2xl text-center text-taupe uppercase tracking-widest font-semibold font-poppins`}
+                >
+                    FULLSTACK PROJECTS
+                </p>
+
+                <div className="mt-[30px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
                     {projects.map((project, index) => (
                         <ProjectCard
                             key={project.id}
@@ -161,6 +168,31 @@ const Projects = () => {
                             {...project}
                             active={active}
                             handleClick={setActive}
+                        />
+                    ))}
+                </div>
+            </motion.div>
+
+            <motion.div
+                variants={staggerContainer}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: false, amount: 0.25 }}
+                className={`${styles.innerWidth} mx-auto flex flex-col`}
+            >
+                <p
+                    className={`mt-[15vh] text-2xl text-center text-taupe uppercase tracking-widest font-semibold font-poppins`}
+                >
+                    FRONTEND PROJECTS
+                </p>
+                <div className="mt-[30px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
+                    {projects.map((project, index) => (
+                        <ProjectCard
+                            key={project.id}
+                            index={index}
+                            {...project}
+                            active={active2}
+                            handleClick={setActive2}
                         />
                     ))}
                 </div>
