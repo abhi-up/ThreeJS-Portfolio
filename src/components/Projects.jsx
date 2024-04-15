@@ -122,7 +122,7 @@ const ProjectCard = ({
 
 const Projects = () => {
     const [active, setActive] = useState("project-2")
-    const [active2, setActive2] = useState("project-2")
+    const [active2, setActive2] = useState("project-7")
 
     return (
         <div className="-mt-[6rem]">
@@ -161,7 +161,7 @@ const Projects = () => {
                 </p>
 
                 <div className="mt-[30px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-                    {projects.map((project, index) => (
+                    {projects.slice(0, 5).map((project, index) => (
                         <ProjectCard
                             key={project.id}
                             index={index}
@@ -186,7 +186,7 @@ const Projects = () => {
                     FRONTEND PROJECTS
                 </p>
                 <div className="mt-[30px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-                    {projects.map((project, index) => (
+                    {projects.slice(5).map((project, index) => (
                         <ProjectCard
                             key={project.id}
                             index={index}

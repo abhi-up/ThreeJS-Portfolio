@@ -22,6 +22,11 @@ import {
     refokus,
     sumz,
     coverhunt,
+    tm,
+    filex,
+    resumebuilder,
+    newsmag,
+    virtualr,
 } from "../assets"
 
 export const navLinks = [
@@ -146,100 +151,89 @@ const projects = [
         id: "project-1",
         name: "PulseChat",
         description: "A real-time chat application built using the MERN stack.",
-        // tags: [
-        //     {
-        //         name: "react",
-        //         color: "blue-text-gradient",
-        //     },
-        //     {
-        //         name: "mongodb",
-        //         color: "green-text-gradient",
-        //     },
-        //     {
-        //         name: "tailwind",
-        //         color: "pink-text-gradient",
-        //     },
-        // ],
         image: pulsechat,
         repo: "https://github.com/abhi-up/PulseChat",
         demo: "https://pulsechat.onrender.com/",
     },
     {
         id: "project-2",
+        name: "Cloud Based TM",
+        description:
+            "The Cloud-Based TM is a web app designed to streamline team task management.",
+        image: tm,
+        repo: "https://github.com/abhi-up/",
+        demo: "https://github.com/abhi-up/",
+    },
+    {
+        id: "project-3",
         name: "Blog Bridges",
         description:
             "A full-stack MERN blog website with CRUD functionality, user authentication, and more.",
-        // tags: [
-        //     {
-        //         name: "react",
-        //         color: "blue-text-gradient",
-        //     },
-        //     {
-        //         name: "restapi",
-        //         color: "green-text-gradient",
-        //     },
-        //     {
-        //         name: "scss",
-        //         color: "pink-text-gradient",
-        //     },
-        // ],
         image: blogbridges,
         repo: "https://github.com/abhi-up/Blog-Bridges",
         demo: "https://blog-bridge.onrender.com/",
     },
     {
-        id: "project-3",
-        name: "Refokus Clone",
-        description:
-            "Refokus clone website with additional features and enhancements for an improved UI.",
-        // tags: [
-        //     {
-        //         name: "nextjs",
-        //         color: "blue-text-gradient",
-        //     },
-        //     {
-        //         name: "supabase",
-        //         color: "green-text-gradient",
-        //     },
-        //     {
-        //         name: "css",
-        //         color: "pink-text-gradient",
-        //     },
-        // ],
-        image: refokus,
-        repo: "https://github.com/abhi-up/Refokus-Clone",
-        demo: "https://refokuzzz-cloned.vercel.app/",
-    },
-    {
         id: "project-4",
-        name: "SumzAI",
+        name: "Sumz AI",
         description: `A cutting-edge article summarizer 'Sumz', using OpenAI's GPT model.`,
-        // tags: [
-        //     {
-        //         name: "nextjs",
-        //         color: "blue-text-gradient",
-        //     },
-        //     {
-        //         name: "supabase",
-        //         color: "green-text-gradient",
-        //     },
-        //     {
-        //         name: "css",
-        //         color: "pink-text-gradient",
-        //     },
-        // ],
         image: sumz,
         repo: "https://github.com/abhi-up/AI-Summarizer",
         demo: "https://65abd4b6447215a3f44433df--nimble-cucurucho-393e9a.netlify.app/",
     },
     {
         id: "project-5",
+        name: "File Sharing App",
+        description:
+            "It's a Node Express-based file sharing system with MongoDB. Users can upload files, set passwords, and schedule file expiry.",
+        image: filex,
+        repo: "https://github.com/abhi-up/File-Sharing-System",
+        demo: "https://www.linkedin.com/posts/meabhi1512_cc9874-codeclause-webdevelopment-activity-7167540157666054145-_HOy?utm_source=share&utm_medium=member_desktop",
+    },
+    {
+        id: "project-6",
+        name: "Resume Builder",
+        description:
+            "Simple yet elegant CV/Resume builder. Built with Remix + Shadcn/ui + Tailwindcss.",
+        image: resumebuilder,
+        repo: "https://github.com/abhi-up/Simple-Resume-Builder",
+        demo: "https://simple-resume-builder.vercel.app/",
+    },
+    {
+        id: "project-7",
         name: "Hoobank",
         description:
             "Hoobank, a modern landing page with serious UX/UI! Built with React & Tailwind.",
         image: hoobank,
         repo: "https://github.com/abhi-up/HooBank-Modern-Landing-Page",
         demo: "https://hoobank-iota-beige.vercel.app/",
+    },
+    {
+        id: "project-8",
+        name: "Refokus Clone",
+        description:
+            "Refokus clone website with additional features and enhancements for an improved UI.",
+        image: refokus,
+        repo: "https://github.com/abhi-up/Refokus-Clone",
+        demo: "https://refokuzzz-cloned.vercel.app/",
+    },
+    {
+        id: "project-9",
+        name: "News Mag",
+        description:
+            "NewsAPI fuels the content, serving up hot takes on tech, sports, entertainment, and health.",
+        image: newsmag,
+        repo: "https://github.com/abhi-up/Simple-Resume-Builder",
+        demo: "https://www.linkedin.com/posts/meabhi1512_project-developer-bootstrap-activity-7152728286589014016-n0Wj?utm_source=share&utm_medium=member_desktop",
+    },
+    {
+        id: "project-10",
+        name: "Virtual R",
+        description:
+            "Simple yet elegant CV/Resume builder. Built with Remix + Shadcn/ui + Tailwindcss.",
+        image: virtualr,
+        repo: "https://github.com/abhi-up/VirtualR",
+        demo: "https://virtual-r-six.vercel.app/",
     },
 ]
 
