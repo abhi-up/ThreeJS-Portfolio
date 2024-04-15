@@ -44,6 +44,11 @@ import hoobank from "./projects/hoobank.png"
 import pulsechat from "./projects/pulsechat.png"
 import refokus from "./projects/refokus.png"
 import sumz from "./projects/sumz.png"
+import filex from "./projects/filex.png"
+import newsmag from "./projects/news-mag.png"
+import resumebuilder from "./projects/resume-builder.png"
+import virtualr from "./projects/virtualr.png"
+import tm from "./projects/task-manager.png"
 
 export {
     bwmap,
@@ -86,4 +91,9 @@ export {
     blogbridges,
     refokus,
     coverhunt,
+    tm,
+    virtualr,
+    resumebuilder,
+    newsmag,
+    filex,
 }
