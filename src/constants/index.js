@@ -82,11 +82,11 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
+        name: "Redux",
         icon: redux,
     },
     {
-        name: "Tailwind CSS",
+        name: "Tailwind",
         icon: tailwind,
     },
     {
