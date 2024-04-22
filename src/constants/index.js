@@ -161,8 +161,8 @@ const projects = [
         description:
             "The Cloud-Based TM is a web app designed to streamline team task management.",
         image: tm,
-        repo: "https://github.com/abhi-up/",
-        demo: "https://github.com/abhi-up/",
+        repo: "https://github.com/abhi-up/TaskZen-TM",
+        demo: "https://taskzen-tm.onrender.com/",
     },
     {
         id: "project-3",
