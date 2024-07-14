@@ -44,25 +44,11 @@ const About = () => {
                 variants={fadeIn("", "", 0.1, 1)}
                 className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
             >
-                Hey there! I'm Abhishek, a final year B.Tech student at AKTU,
-                fueled by a passion for coding and weaving captivating web
-                experiences. <br />
-                As a full stack MERN (MongoDB, Express.js, React.js, Node.js)
-                web developer and proficient Java programmer, I have cultivated
-                a diverse skill set that enables me to design and implement
-                robust, scalable, and user-centric web applications. With a keen
-                eye for detail and a commitment to excellence, I consistently
-                strive to push the boundaries of what's possible in web
-                development, ensuring seamless functionality, intuitive user
-                interfaces, and efficient backend processes. Whether it's
-                crafting dynamic front-end designs using React.js or optimizing
-                database performance using MongoDB and Java, I approach every
-                project with enthusiasm, creativity, and a dedication to
-                delivering high-quality results that exceed expectations.
-                <br /> Dive into my portfolio to explore a showcase of my
-                projects and discover the innovative solutions I've developed to
-                address complex challenges in the ever-evolving world of web
-                development.
+Welcome to my corner of the web! I'm Abhishek Upadhyay, a passionate web developer based in India. With a solid foundation in Computer Science and Engineering, I graduated with honors and have since dived headfirst into the dynamic world of web development.<br/>
+My journey began with a curiosity for crafting digital experiences that are both intuitive and impactful. During my academic years and beyond, I honed my skills in frontend and backend technologies like React, Node.js, and MongoDB, allowing me to build robust applications that meet modern standards.<br/>
+Driven by a love for clean code and effective problem-solving, I thrive in turning ideas into reality. My projects such as TaskZen, Pulse Chat, and Blog-Bridge showcase not only my technical prowess but also my commitment to creating solutions that enhance user experiences.<br/>
+Beyond coding, I value collaboration and continuous learning. As a proactive learner, I stay updated with the latest industry trends and best practices, ensuring that my solutions are not just functional but also scalable and efficient.<br/>
+Whether you're looking to enhance your online presence, streamline operations, or innovate with new digital solutions, I'm here to help. Let's connect and explore how we can transform your ideas into successful projects that make a difference.
             </motion.p>
 
             <div className="mt-20 flex flex-wrap gap-10">
